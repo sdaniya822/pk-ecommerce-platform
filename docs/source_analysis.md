@@ -3,7 +3,7 @@
 | Website | robots.txt | Terms mention scraping? | Static or JavaScript? | Decision |
 |---|---|---|---|---|
 | PriceOye | Product pages allowed, no query strings | Yes: Section 5 prohibits data mining, robots, collecting listings/prices | Static | DROPPED: Terms prohibit automated collection |
-| Telex | Products and collections allowed, cart/checkout blocked | Not checked yet | Not checked yet | Candidate source |
+| Telex (Telemart) | Products and collections allowed; cart, checkout, account, orders, sort_by and filter URLs blocked | No explicit mention of scraping found; commercial-use and IP clauses noted | Static (price in HTML and embedded JSON); reviews load by JavaScript | Main source: use carefully |
 | Daraz | /catalog/ (search), cart, checkout blocked | Not checked yet | Not checked yet | Candidate source |
 
 ## Decision Log
@@ -15,3 +15,11 @@
 - **Reasoning:** robots.txt and the Terms of Use are separate. Even though the site is technically easy to scrape, the Terms do not allow it, and this project follows both.
 - **Action:** PriceOye will not be scraped. No PriceOye data is stored in this repository.
 - **Ethics link:** Respecting website terms of service and acting within the law (ACM/IEEE codes of ethics, PECA 2016).
+
+### Decision 2: Telex (Telemart) kept as a source with conditions
+
+- **Date:** 12 October 2026
+- **Finding:** Telemart now runs at telex.pk (a Shopify store). Its robots.txt allows product and collection pages. Its Terms do not mention scraping, but they restrict commercial use and protect the site's intellectual property.
+- **Reasoning:** Nothing explicitly prohibits public price collection, and this project is academic and non-commercial. Because the Terms are not a clear permission, the scraper will be careful and polite.
+- **Action:** Collect only public product data, wait 2 to 3 seconds between requests, avoid cart, checkout, account, sort and filter URLs, collect no personal data, and never republish the data.
+- **Ethics link:** Minimising harm to the website, respecting privacy, and using data only for its stated academic purpose (ACM/IEEE codes of ethics).
