@@ -3,7 +3,7 @@
 | Website | robots.txt | Terms mention scraping? | Static or JavaScript? | Decision |
 |---|---|---|---|---|
 | PriceOye | Product pages allowed, no query strings | Yes: Section 5 prohibits data mining, robots, collecting listings/prices | Static | DROPPED: Terms prohibit automated collection |
-| Telex (Telemart) | Products and collections allowed; cart, checkout, account, orders, sort_by and filter URLs blocked | No explicit mention of scraping found; commercial-use and IP clauses noted | Static (price in HTML and embedded JSON); reviews load by JavaScript | Main source: use carefully |
+| Telex (Telemart) | Products and collections allowed; cart, checkout, account, orders, sort_by and filter URLs blocked | Confirmed: telex.pk uses the Telemart Terms. No explicit mention of scraping; commercial-use and IP clauses noted | Static; public /products.json feed works; no review data | Main source: use carefully |
 | Daraz | /catalog/ (search), cart, checkout blocked | Not checked yet | Not checked yet | Candidate source |
 
 ## Decision Log
