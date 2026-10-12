@@ -6,23 +6,11 @@
 
 |---|---|---|---|---|
 
-| | PriceOye | Product pages allowed, no query strings | Section 5 prohibits data mining, robots, collecting listings/prices | Static | DROPPED: Terms prohibit automated collection |
+| PriceOye | Product pages allowed, no query strings | Yes: Section 5 prohibits data mining, robots, collecting listings/prices | Static | DROPPED: Terms prohibit automated collection |
 
-| Telex | Products and collections allowed, cart/checkout blocked | (your finding) | (your finding) | Main source |
+| Telex | Products and collections allowed, cart/checkout blocked | Not checked yet | Not checked yet | Candidate source |
 
-| Daraz | /catalog/ (search), cart, checkout blocked | (your finding) | (your finding) | Optional |
-
-
-
-
-
-
-
-
-
-
-
-
+| Daraz | /catalog/ (search), cart, checkout blocked | Not checked yet | Not checked yet | Candidate source |
 
 
 
@@ -32,27 +20,15 @@
 
 \### Decision 1: PriceOye removed as a data source
 
-\- Date: (write today's date)
 
-\- Finding: PriceOye's robots.txt allows product pages, but Section 5
 
-&#x20; ("License to access the site") of its Terms and Conditions prohibits
+\- \*\*Date:\*\* 12 October 2026
 
-&#x20; data mining, robots, similar data gathering tools, and the collection
+\- \*\*Finding:\*\* PriceOye's robots.txt allows product pages, but Section 5 ("License to access the site") of its Terms and Conditions prohibits data mining, robots, similar data gathering tools, and the collection and use of product listings, descriptions or prices.
 
-&#x20; and use of product listings, descriptions or prices.
+\- \*\*Reasoning:\*\* robots.txt and the Terms of Use are separate. Even though the site is technically easy to scrape, the Terms do not allow it, and this project follows both.
 
-\- Reasoning: robots.txt and the Terms of Use are separate. Even though the
+\- \*\*Action:\*\* PriceOye will not be scraped. No PriceOye data is stored in this repository.
 
-&#x20; site is technically easy to scrape, the Terms do not allow it, and this
-
-&#x20; project follows both.
-
-\- Action: PriceOye will not be scraped. No PriceOye data is stored in this
-
-&#x20; repository.
-
-\- Ethics link: respecting website terms of service and acting within the
-
-&#x20; law (ACM/IEEE codes of ethics, PECA 2016).
+\- \*\*Ethics link:\*\* Respecting website terms of service and acting within the law (ACM/IEEE codes of ethics, PECA 2016).
 
