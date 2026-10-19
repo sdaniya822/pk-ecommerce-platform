@@ -5,6 +5,7 @@
 | PriceOye | Product pages allowed, no query strings | Yes: Section 5 prohibits data mining, robots, collecting listings/prices | Static | DROPPED: Terms prohibit automated collection |
 | Telex (Telemart) | Products and collections allowed; cart, checkout, account, orders, sort_by and filter URLs blocked | Confirmed: telex.pk uses the Telemart Terms. No explicit mention of scraping; commercial-use and IP clauses noted | Static; public /products.json feed works; no review data | Main source: use carefully |
 | Daraz | /catalog/ (search), cart, checkout blocked; product pages allowed | Yes: Section E prohibits collecting product listings/prices and using data mining or robots | Not checked (not needed) | DROPPED: Terms prohibit automated collection |
+
 ## Decision Log
 
 ### Decision 1: PriceOye removed as a data source
